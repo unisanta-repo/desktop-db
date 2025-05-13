@@ -1,0 +1,11 @@
+C:\Users\unisanta\source\repos\ProjetoDatabase\ProjetoDatabase\bin\Debug\ProjetoDatabase.exe.config
+C:\Users\unisanta\source\repos\ProjetoDatabase\ProjetoDatabase\bin\Debug\ProjetoDatabase.exe
+C:\Users\unisanta\source\repos\ProjetoDatabase\ProjetoDatabase\bin\Debug\ProjetoDatabase.pdb
+C:\Users\unisanta\source\repos\ProjetoDatabase\ProjetoDatabase\obj\Debug\ProjetoDatabase.csproj.AssemblyReference.cache
+C:\Users\unisanta\source\repos\ProjetoDatabase\ProjetoDatabase\obj\Debug\ProjetoDatabase.csproj.SuggestedBindingRedirects.cache
+C:\Users\unisanta\source\repos\ProjetoDatabase\ProjetoDatabase\obj\Debug\ProjetoDatabase.Form1.resources
+C:\Users\unisanta\source\repos\ProjetoDatabase\ProjetoDatabase\obj\Debug\ProjetoDatabase.Properties.Resources.resources
+C:\Users\unisanta\source\repos\ProjetoDatabase\ProjetoDatabase\obj\Debug\ProjetoDatabase.csproj.GenerateResource.cache
+C:\Users\unisanta\source\repos\ProjetoDatabase\ProjetoDatabase\obj\Debug\ProjetoDatabase.csproj.CoreCompileInputs.cache
+C:\Users\unisanta\source\repos\ProjetoDatabase\ProjetoDatabase\obj\Debug\ProjetoDatabase.exe
+C:\Users\unisanta\source\repos\ProjetoDatabase\ProjetoDatabase\obj\Debug\ProjetoDatabase.pdb

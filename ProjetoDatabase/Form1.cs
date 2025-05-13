@@ -37,14 +37,14 @@ namespace ProjetoDatabase
                 Application.Exit();
             }
 
-            string nome = textBox1.Text; // Supondo que você tenha um TextBox para o nome
+            string nome = textBox1.Text;
             Cliente cliente = new Cliente
             {
                 Name = nome
             };
 
             clienteController.AddCliente(cliente);
-            AtualizarClientesGrid(); // Método para atualizar os dados no DataGrid
+            AtualizarClientesGrid();
 
             textBox1.Text = "";
         }

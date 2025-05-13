@@ -53,6 +53,7 @@ namespace ProjetoDatabase
         }
 
 
+
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             var clientes = clienteController.GetAllClientes();

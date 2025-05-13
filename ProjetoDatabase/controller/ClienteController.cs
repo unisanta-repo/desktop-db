@@ -86,6 +86,40 @@ namespace ProjetoDatabase.controller
             }
         }
 
+        public List<Cliente> GetClientes()
+        {
+            var list = new List<Cliente>();
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    string query = "SELECT id, nome FROM tb_cliente";
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while(reader.Read())
+                        {
+                            list.Add(new Cliente
+                            {
+                                Id = Convert.ToInt32(reader["id"]),
+                                Name = reader["name"].ToString(),
+
+                            });
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    throw new Exception(ex.ToString());
+                }
+            }
+
+            return list
+
+        }
 
 
     }

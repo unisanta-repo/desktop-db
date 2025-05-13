@@ -117,7 +117,7 @@ namespace ProjetoDatabase.controller
                 }
             }
 
-            return list
+            return list;
 
         }
 

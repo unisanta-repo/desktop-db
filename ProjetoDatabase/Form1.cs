@@ -23,6 +23,7 @@ namespace ProjetoDatabase
         {
             InitializeComponent();
             clienteController = new ClienteController(connectionString);
+            AtualizarClientesGrid();
 
 
         }
@@ -44,6 +45,8 @@ namespace ProjetoDatabase
 
             clienteController.AddCliente(cliente);
             AtualizarClientesGrid(); // Método para atualizar os dados no DataGrid
+
+            textBox1.Text = "";
         }
 
         private void AtualizarClientesGrid()
